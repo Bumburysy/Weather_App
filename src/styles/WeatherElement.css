@@ -1,0 +1,64 @@
+.weather-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 350px;
+    height: 260px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.weather-element.sunny {
+    background: linear-gradient(#FFD700, #FF8C00);
+}
+
+.weather-element.partly-cloudy {
+    background: linear-gradient(#B0C4DE, #87CEEB);
+}
+
+.weather-element.fog {
+    background: linear-gradient(#D3D3D3, #A9A9A9);
+}
+
+.weather-element.drizzle {
+    background: linear-gradient(#B0E0E6, #ADD8E6);
+}
+
+.weather-element.rain {
+    background: linear-gradient(#87CEFA, #4682B4);
+}
+
+.weather-element.freezing-rain {
+    background: linear-gradient(#E0FFFF, #4682B4);
+}
+
+.weather-element.heavy-rain {
+    background: linear-gradient(#4682B4, #1E90FF);
+}
+
+.weather-element.snow-showers {
+    background: linear-gradient(#F0FFFF, #DCDCDC);
+}
+
+.weather-element.snow-grains {
+    background: linear-gradient(#F0FFFF, #919191);
+}
+
+.weather-element.snow {
+    background: linear-gradient(#E0FFFF, #AFEEEE);
+}
+
+.weather-element.thunderstorm {
+    background: linear-gradient(#4F4F4F, #000000);
+}
+
+.weather-element.thunderstorm-hail {
+    background: linear-gradient(#2F4F4F, #778899);
+}
+
+

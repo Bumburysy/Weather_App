@@ -1,0 +1,8 @@
+.clock {
+    display: flex;
+    align-items: center;
+}
+  
+.clock p:last-child{
+    margin-left: 5px;
+}
