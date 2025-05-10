@@ -1,4 +1,4 @@
-Weather App
+# Weather App
 
 Prosta aplikacja pokazująca prognozę pogody dla wybranej lokalizacji.
 
